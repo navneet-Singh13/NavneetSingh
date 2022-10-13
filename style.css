@@ -1,0 +1,98 @@
+
+#bgvideo{ 
+    z-index: -1;
+    height: 900px ;
+    margin-top: 0;
+    position: fixed;
+    
+}
+
+#navbar{ 
+    width: 100%;
+    padding: 30px ;
+    opacity: 1;
+    position: static;
+    z-index: 3;
+}
+
+.mynav {  
+    color:white ; 
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+
+}
+@media only screen and (max-width : 400px ){ 
+    .mynav{ 
+        font-size: x-large;
+        
+         
+    }  
+    #about-div{
+        margin-top:200px ;
+    }
+    #bgvideo{
+        height: 100%;
+    }
+}
+
+#intro{ 
+    color:whitesmoke ; 
+    margin-left: 50px ;
+    margin-top: 50px ;
+}
+#edu,#skills{
+    /* margin-top: 300px ; */
+    margin-left: 10px ;
+    color:white ;
+    background-color: black;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#edu-img{ 
+
+    opacity: 0.8;
+}
+.info{ 
+    margin-left: 30px ;
+   font-size: 30px;
+    
+}
+#skills{ 
+    font-size: 20px;
+    margin-top: 100px ;
+}
+#txt{
+    font-weight: bold;
+}
+#about-div { 
+    margin-top: 300px ;
+}
+.resume{ 
+    margin-top: 10px ; 
+    color:white;
+    background-color: rgb(69, 167, 232);
+    border-style: none;
+    border-radius: 10px ;
+    padding: 5px ;
+
+}
+#use{ 
+    padding: 10px;
+    margin-left: 30px ;
+    color:white ; 
+} 
+#atwo { 
+    font-size: 20px ;
+}
+#ico{ 
+    height: 40px ; 
+    width: 40px ;
+    display: inline-block;
+}
+#nvi{ 
+    color:red ; 
+    font-weight: bold;
+}
