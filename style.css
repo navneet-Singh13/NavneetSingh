@@ -16,10 +16,11 @@
 }
 
 .mynav {  
-    color:white ; 
+    color:rgb(184, 184, 184) ; 
     padding: 15px;
     font-size: larger;
     text-decoration: none;
+    font-weight: bold;
 
 }
 @media only screen and (max-width : 400px ){ 
@@ -35,13 +36,29 @@
         height: 100%;
     }
 }
-
+@media only screen and (max-width : 370px ){ 
+    .mynav{ 
+        padding:5px ; 
+        
+         
+    }  
+   
+}
+@media only screen and (max-width : 310px ){ 
+    .mynav{ 
+        display: block; 
+        padding: 10px ;
+        
+         
+    }  
+   
+}
 #intro{ 
     color:whitesmoke ; 
     margin-left: 50px ;
     margin-top: 50px ;
 }
-#edu,#skills{
+#edu,#skills,#projects{
     /* margin-top: 300px ; */
     margin-left: 10px ;
     color:white ;
@@ -95,4 +112,29 @@
 #nvi{ 
     color:red ; 
     font-weight: bold;
+}
+#cpp { 
+    color:rgb(69, 167, 232) ; 
+}
+#html{ 
+    color:darkorange ;
+}
+#css{ 
+    color:red ; 
+}
+#js { 
+    color:deeppink 
+}
+#school { 
+    color:rgb(16, 223, 192) ; 
+}
+#uni { 
+    color: deepskyblue ; 
+}
+.card{ 
+   
+    background-color:rgb(16, 98, 146) ;
+}
+#ptwo{ 
+    height :119px ; 
 }
