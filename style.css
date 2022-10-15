@@ -123,7 +123,7 @@
     color:red ; 
 }
 #js { 
-    color:deeppink 
+    color:deeppink; 
 }
 #school { 
     color:rgb(16, 223, 192) ; 
@@ -137,4 +137,18 @@
 }
 #ptwo{ 
     height :119px ; 
+}
+.logos{ 
+    display: inline-block;
+    padding: 10px ; 
+  
+
+
+}
+#langs{
+    display: inline-block;
+    position: absolute;
+ }
+#cp{ 
+    height: 68px ;
 }
