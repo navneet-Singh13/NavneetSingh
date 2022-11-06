@@ -1,12 +1,7 @@
-
-#bgvideo{ 
-    z-index: -1;
-    height: 900px ;
-    margin-top: 0;
-    position: fixed;
-    
+body{ 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 #navbar{ 
     width: 100%;
     padding: 30px ;
@@ -63,7 +58,7 @@
     margin-left: 10px ;
     color:white ;
     background-color: black;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     padding: 20px;
     border-radius: 10px;
 
