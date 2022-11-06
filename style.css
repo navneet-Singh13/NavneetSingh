@@ -105,7 +105,7 @@ body{
     display: inline-block;
 }
 #nvi{ 
-    color:red ; 
+    color:rgb(255, 206, 206) ; 
     font-weight: bold;
 }
 #cpp { 
