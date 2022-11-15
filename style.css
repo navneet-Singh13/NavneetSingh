@@ -1,6 +1,7 @@
 body{ 
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background 1500ms;
 }
 #navbar{ 
     width: 100%;
@@ -20,7 +21,7 @@ body{
 }
 @media only screen and (max-width : 400px ){ 
     .mynav{ 
-        font-size: x-large;
+        font-size: large;
         
          
     }  
@@ -33,6 +34,7 @@ body{
 }
 @media only screen and (max-width : 370px ){ 
     .mynav{ 
+        font-size: 20px;
         padding:5px ; 
         
          
@@ -54,6 +56,7 @@ body{
     margin-top: 50px ;
 }
 #edu,#skills,#projects{
+    z-index: 5;
     /* margin-top: 300px ; */
     margin-left: 10px ;
     color:white ;
@@ -146,4 +149,14 @@ body{
  }
 #cp{ 
     height: 68px ;
+}
+#bgbut{
+    font-size: small;
+    padding: 5px; 
+    font-family: sans-serif;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    float:right; 
+    border-width: 0;
 }
